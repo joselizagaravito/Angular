@@ -7,9 +7,10 @@ to complete the application use the command:
  ```
 -Inventory
 ---Ext
------Login (JWT)
+-----Login
 -----HomePage
------module
+-----external-routing.module.ts
+-----external.module.ts
 ---Pages
 -----Categories
 -------List
