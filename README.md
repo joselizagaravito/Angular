@@ -4,7 +4,7 @@ An angular application has been created that will help you with a basic structur
 to complete the application use the command:
 > npm install --save-dev @angular-devkit/build-angular
 
-
+ ```
 -Inventory
 ---Ext
 -----Login (JWT)
@@ -20,8 +20,10 @@ to complete the application use the command:
 -------Add
 -------Update
 -------Unsubscribe
+```
 
 # Basic commands for creating the structure manually
+```
 > ng new Inventory
 > ng g module ext/external --flat --routing --dryRun=true
 > ng g module pages/pages --flat --routing --dryRun=true
@@ -29,3 +31,4 @@ to complete the application use the command:
 > ng g components ext/HomePage --skipTests=true --dryRun=true
 > ng g class ext/Login/loginRequest --skipTests=true --dryRun=true
 > ng g class ext/Login/loginResponse --skipTests=true --dryRun=true
+```
