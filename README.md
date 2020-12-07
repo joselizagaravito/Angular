@@ -33,3 +33,4 @@ to complete the application use the command:
 > ng g class ext/Login/loginRequest --skipTests=true --dryRun=true
 > ng g class ext/Login/loginResponse --skipTests=true --dryRun=true
 ```
+change `--dryRun=true` to `--dryRun=false` to create the files and folders
